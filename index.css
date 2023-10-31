@@ -21,7 +21,7 @@ ul{
 ul li{
     list-style-type: none;
     font-size: 20px;
-    
+    transform: .5;
    
 }
 ul li a{
@@ -29,6 +29,9 @@ ul li a{
      padding: 5px 10px;
     color: white;
     border-radius: 5px;
+}
+ul li:hover{
+    scale: .9;
 }
 li .a1{
     background-color: #FF764E;
@@ -83,8 +86,13 @@ main{
 .card{
     text-align: center;
     display:block;
-    width:400px ;
-    
+    width:300px ;
+transform: 0.5;
+}
+
+.card:hover{
+    cursor: pointer;
+    scale: .9;
 }
 .card img{
     height: 100px;
