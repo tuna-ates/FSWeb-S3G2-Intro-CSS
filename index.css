@@ -1,0 +1,113 @@
+
+     
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto mono";
+    font-weight: bold;
+}
+header{
+    margin: 10px 20px;
+
+}
+nav{
+    padding: 10px 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+    
+   
+}
+ul li a{
+    text-decoration: none;
+     padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+li .a1{
+    background-color: #FF764E;
+}
+li .a2{
+    background-color: #5ED3EB;
+}
+li .a3{
+    background-color: #FFCD69;
+}
+
+
+main{
+    padding: 40px 70px;
+}
+.container-main{
+    display:flex;
+    margin-bottom: 40px;
+
+}
+.container-main img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+     
+}
+.container-main div{
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+}
+.container-main div h2{
+    margin-bottom: 20px;
+    font-family:"Chelsea Market";
+    
+}
+.container-main div p{
+    margin-bottom: 15px;
+}
+.mainText{
+    background-color: #DDB9A3;
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+}
+
+ section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+.card{
+    text-align: center;
+    display:block;
+    width:400px ;
+    
+}
+.card img{
+    height: 100px;
+}
+.card span{
+    color: red;
+}
+footer{
+    margin-top: 70px;
+    background-color: #F9E7DC;
+}
+footer div{
+    background:url("assets/footer_img.jpg");
+    position: relative;
+    bottom: 10px;
+    height: 180px;
+    width: 100%;
+    background-size: cover;
+    
+}
+footer nav ul{
+    margin: 20px 0;
+    
+}
